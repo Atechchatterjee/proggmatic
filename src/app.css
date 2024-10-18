@@ -11,10 +11,54 @@
   :root {
     --background-rgb: 0, 0, 0;
     --foreground-rgb: 255, 255, 255;
+    --background: #17181E;
   }
 }
 
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('./public/fonts/SpaceGrotesk-Regular.ttf');
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('./public/fonts/SpaceGrotesk-Medium.ttf');
+  font-display: swap;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('./public/fonts/SpaceGrotesk-SemiBold.ttf');
+  font-display: swap;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('./public/fonts/SpaceGrotesk-Bold.ttf');
+  font-display: swap;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'AnonymousPro';
+  src: url('./public/fonts/AnonymousPro-Regular.ttf');
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'AnonymousPro';
+  src: url('./public/fonts/AnonymousPro-Bold.ttf');
+  font-display: swap;
+  font-weight: 800;
+}
+
 body {
-  background: rgb(var(--background-rgb));
+  background: var(--background);
   color: rgb(var(--foreground-rgb));
+  font-family: "SpaceGrotesk";
 }
